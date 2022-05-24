@@ -9,7 +9,7 @@ body {
     font-family: Source Sans Pro;
     background-color: #eee;
     text-align: center;
-    padding: 0.5em
+    padding: 0.5em;
 }
 header {
     font-family: Abril Fatface;
@@ -47,6 +47,9 @@ nav {
     border-top: 0.1em solid #eee;
     border-bottom: 0.1em solid #eee;
     margin: 1em;
+    position: sticky;
+    top: 0.1px;
+    background-color: white;
 }
 h2 {
     font-size: 3em;
@@ -83,4 +86,18 @@ h4 {
 }
 h1 {
     font-size: 4em;
+}
+.art3-5 {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    padding: 1em;
+}
+footer {
+    text-align: center;
+    font-size: 0.6em;
+    border-top: 0.1em solid #eee;
+    margin: 1em;
+    background-color: white;
+    font-weight: 600;
 }
